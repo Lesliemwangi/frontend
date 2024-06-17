@@ -18,7 +18,7 @@ function AboutUs() {
             <Col md={6}>
               <p
                 className="text-secondary-light mt-6 mb-2"
-                style={{ fontSize: "1.5rem", fontWeight: "bolder" }}
+                style={{ fontSize: "1.6rem"}}
               >
                 At our company, we aim to redefine the real estate experience by
                 providing exceptional service and expertise. Our mission is to
@@ -44,7 +44,7 @@ function AboutUs() {
             <Col md={6} className="order-md-2">
               <p
                 className="text-secondary-light mt-4 mb-2"
-                style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+                style={{ fontSize: "1.6rem" }}
               >
                 We value diversity and inclusion, believing that a wide range of
                 perspectives enriches our approach and drives innovation. Our
