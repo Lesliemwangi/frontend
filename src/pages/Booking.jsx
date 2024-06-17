@@ -68,14 +68,19 @@ const Booking = ({ propertyId }) => {
             control={control}
             render={({ field, fieldState }) => (
               <Form.Group controlId="bookingName">
-                <Form.Label style={{ fontWeight: "bold" }}>Name:</Form.Label>
+                <Form.Label style={{ fontSize: "2.0rem", fontWeight: "bold" }}>
+                  Name:
+                </Form.Label>
                 <Form.Control
                   type="text"
                   {...field}
                   isInvalid={!!fieldState.error}
                 />
                 {fieldState.error && (
-                  <Form.Control.Feedback type="invalid">
+                  <Form.Control.Feedback
+                    type="invalid"
+                    style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+                  >
                     {fieldState.error.message}
                   </Form.Control.Feedback>
                 )}
@@ -87,14 +92,19 @@ const Booking = ({ propertyId }) => {
             control={control}
             render={({ field, fieldState }) => (
               <Form.Group controlId="bookingEmail">
-                <Form.Label style={{ fontWeight: "bold" }}>Email:</Form.Label>
+                <Form.Label style={{ fontSize: "2.0rem", fontWeight: "bold" }}>
+                  Email:
+                </Form.Label>
                 <Form.Control
                   type="email"
                   {...field}
                   isInvalid={!!fieldState.error}
                 />
                 {fieldState.error && (
-                  <Form.Control.Feedback type="invalid">
+                  <Form.Control.Feedback
+                    type="invalid"
+                    style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+                  >
                     {fieldState.error.message}
                   </Form.Control.Feedback>
                 )}
@@ -106,21 +116,26 @@ const Booking = ({ propertyId }) => {
             control={control}
             render={({ field, fieldState }) => (
               <Form.Group controlId="bookingPhone">
-                <Form.Label style={{ fontWeight: "bold" }}>Phone:</Form.Label>
+                <Form.Label style={{ fontSize: "2.0rem", fontWeight: "bold" }}>
+                  Phone:
+                </Form.Label>
                 <Form.Control
                   type="tel"
                   {...field}
                   isInvalid={!!fieldState.error}
                 />
                 {fieldState.error && (
-                  <Form.Control.Feedback type="invalid">
+                  <Form.Control.Feedback
+                    type="invalid"
+                    style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+                  >
                     {fieldState.error.message}
                   </Form.Control.Feedback>
                 )}
               </Form.Group>
             )}
           />
-          <Button variant="primary" type="submit">
+          <Button className="mt-4" variant="primary" type="submit">
             Submit Booking
           </Button>
         </Form>

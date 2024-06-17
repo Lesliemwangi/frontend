@@ -85,7 +85,13 @@ function Contacts() {
                     {...field}
                   />
                   {fieldState.error && (
-                    <span style={{ color: "red" }}>
+                    <span
+                      style={{
+                        color: "red",
+                        fontSize: "1.5rem",
+                        fontWeight: "bold",
+                      }}
+                    >
                       {fieldState.error.message}
                     </span>
                   )}
@@ -109,7 +115,13 @@ function Contacts() {
                     {...field}
                   />
                   {fieldState.error && (
-                    <span style={{ color: "red" }}>
+                    <span
+                      style={{
+                        color: "red",
+                        fontSize: "1.5rem",
+                        fontWeight: "bold",
+                      }}
+                    >
                       {fieldState.error.message}
                     </span>
                   )}
@@ -133,7 +145,13 @@ function Contacts() {
                     {...field}
                   />
                   {fieldState.error && (
-                    <span style={{ color: "red" }}>
+                    <span
+                      style={{
+                        color: "red",
+                        fontSize: "1.5rem",
+                        fontWeight: "bold",
+                      }}
+                    >
                       {fieldState.error.message}
                     </span>
                   )}
@@ -158,7 +176,13 @@ function Contacts() {
                     {...field}
                   />
                   {fieldState.error && (
-                    <span style={{ color: "red" }}>
+                    <span
+                      style={{
+                        color: "red",
+                        fontSize: "1.5rem",
+                        fontWeight: "bold",
+                      }}
+                    >
                       {fieldState.error.message}
                     </span>
                   )}

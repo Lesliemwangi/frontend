@@ -19,7 +19,7 @@ const NewsDetails = () => {
   }
 
   return (
-    <Container className="py-4 text-white">
+    <Container className="py-4 text-black">
       <Button onClick={() => navigate(-1)} className="mb-3">
         Back
       </Button>
