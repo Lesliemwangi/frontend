@@ -19,7 +19,7 @@ const NewsDetails = () => {
   }
 
   return (
-    <Container className="py-4 text-black">
+    <Container className="py-4 text-white">
       <Button onClick={() => navigate(-1)} className="mb-3">
         Back
       </Button>
@@ -33,7 +33,7 @@ const NewsDetails = () => {
               src={news.image_url}
               alt={news.title}
               className="img-fluid rounded"
-              style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
+              style={{ maxWidth: "100%", height: "100", borderRadius: "10px" }}
             />
           </div>
         </Col>

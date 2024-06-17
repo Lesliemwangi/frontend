@@ -13,44 +13,44 @@ function CoreValues() {
       <Row className="mb-32 align-items-center">
         <Col md={6}>
           <ul className="list-unstyled">
-            <li className="mb-3" style={{ fontSize: "2.0rem" }}>
+            <li className="mb-3" style={{ fontSize: "1.8rem" }}>
               <strong>
                 <u>Customer-Centric:</u>
               </strong>
-              <p style={{ fontSize: "1.5rem" }}>
+              <p style={{ fontSize: "1.4rem" }}>
                 We prioritize customer satisfaction above all else.
               </p>
             </li>
-            <li className="mb-3" style={{ fontSize: "2.0rem" }}>
+            <li className="mb-3" style={{ fontSize: "1.8rem" }}>
               <strong>
                 <u>Integrity:</u>
               </strong>
-              <p style={{ fontSize: "1.5rem" }}>
+              <p style={{ fontSize: "1.4rem" }}>
                 We conduct business with honesty and transparency.
               </p>
             </li>
-            <li className="mb-3" style={{ fontSize: "2.0rem" }}>
+            <li className="mb-3" style={{ fontSize: "1.8rem" }}>
               <strong>
                 <u>Innovation:</u>
               </strong>
-              <p style={{ fontSize: "1.5rem" }}>
+              <p style={{ fontSize: "1.4rem" }}>
                 We continuously innovate to stay ahead in the real estate
                 industry.
               </p>
             </li>
-            <li className="mb-3" style={{ fontSize: "2.0rem" }}>
+            <li className="mb-3" style={{ fontSize: "1.8rem" }}>
               <strong>
                 <u>Teamwork:</u>
               </strong>
-              <p style={{ fontSize: "1.5rem" }}>
+              <p style={{ fontSize: "1.4rem" }}>
                 We believe in collaborative efforts to achieve excellence.
               </p>
             </li>
-            <li style={{ fontSize: "2.0rem" }}>
+            <li style={{ fontSize: "1.8rem" }}>
               <strong>
                 <u>Community:</u>
               </strong>
-              <p style={{ fontSize: "1.5rem" }}>
+              <p style={{ fontSize: "1.4rem" }}>
                 We contribute positively to our communities and environment.
               </p>
             </li>
@@ -61,6 +61,7 @@ function CoreValues() {
             className="img-fluid rounded-5"
             src="https://images.pexels.com/photos/15543045/pexels-photo-15543045/free-photo-of-walls-io-company-values-on-sticky-notes.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
+            style={{ maxWidth: "90%", height: "100%" }}
           />
         </Col>
       </Row>

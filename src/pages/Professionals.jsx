@@ -26,7 +26,7 @@ function Professionals() {
         >
           <u>Meet the Team</u>
         </h4>
-        <p className="text-white mb-0" style={{ fontSize: "1.5rem"}}>
+        <p className="text-white mb-5" style={{ fontSize: "1.5rem"}}>
           Our team comprises dedicated professionals who bring diverse skills
           and expertise to the table. Each member is passionate about real
           estate and committed to delivering exceptional service to our clients.
