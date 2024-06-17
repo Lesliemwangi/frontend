@@ -19,7 +19,7 @@ const NewsDetails = () => {
   }
 
   return (
-    <Container className="py-4">
+    <Container className="py-4 text-white">
       <Button onClick={() => navigate(-1)} className="mb-3">
         Back
       </Button>
@@ -52,13 +52,16 @@ const NewsDetails = () => {
               className="description mb-4"
               style={{
                 fontWeight: "bold",
-                fontSize: "1.5rem",
+                fontSize: "1.6rem",
                 textDecoration: "underline",
               }}
             >
               {news.description}
             </p>
-            <div className="content fs-5">
+            <div
+              className="content"
+              style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+            >
               <p>{news.content}</p>
             </div>
           </div>
