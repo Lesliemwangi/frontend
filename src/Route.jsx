@@ -1,7 +1,7 @@
 // src/route.jsx
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import App from "./pages/App";
+import App from "./App";
 import Home from "./components/Home";
 import Properties from "./components/Properties";
 import PropertyDetails from "./pages/PropertyDetails";
