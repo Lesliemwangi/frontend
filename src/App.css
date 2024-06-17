@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://media.istockphoto.com/id/1399559286/photo/high-tech-city-skyline-hologram-3d-rendering.jpg?s=612x612&w=0&k=20&c=pJteVxYHed9REVqJNDK8SnFlcWuRtvvdKuEsw7yj1Ew=");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
-  padding: 2em;
+  transition: transform 0.2s, box-shadow 0.2s; 
+  cursor: pointer; 
+  background-color: #fff; 
+  border: 1px solid #e2e8f0; 
+  border-radius: 8px; 
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover, .card:focus, .card:active {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.custom-card {
+  width: 25rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s; 
+}
+
+.custom-card-img {
+  height: 20rem;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+.card .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.error-message {
+  color: #dc3545; 
+  font-size: 0.875rem;
+  margin-top: 0.25rem; 
+}
+
+
