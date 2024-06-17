@@ -5,7 +5,7 @@
 ## By Leslie Wambui Mwangi
 
 ## Website video Link
-https://flonnect.com/video/69c8aed8e111-447e-b998-8e830a7eb3e0
+https://flonnect.com/video/ce83e123c7d0-44a4-829f-3669219189fa
 
 ## Backend repo
 https://github.com/Lesliemwangi/real-estate-backend.git

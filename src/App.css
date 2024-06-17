@@ -2,23 +2,13 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
-  background-image: url("https://images.pexels.com/photos/1795507/pexels-photo-1795507.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover; /* Ensures the image covers the entire viewport */
-  background-position: center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the background fixed during scroll */
-}
-
-/* .homePage {
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/524/228/970/life-interior-home-room-wallpaper-preview.jpg");
+  background-image: url("https://img.freepik.com/premium-vector/hand-holding-home-digital-technology-blue-dark-background-business-buy-real-estate_252172-245.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  position: relative;
-  text-align: center;
-} */
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
 .overlay {
   position: absolute;
   top: 0;
