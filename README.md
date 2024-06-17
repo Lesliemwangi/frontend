@@ -8,7 +8,7 @@
 https://flonnect.com/video/69c8aed8e111-447e-b998-8e830a7eb3e0
 
 ## Backend repo
-https://github.com/Lesliemwangi/real-estate.git
+https://github.com/Lesliemwangi/real-estate-backend.git
 
 # Project description:
 
