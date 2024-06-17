@@ -4,7 +4,11 @@
 
 ## By Leslie Wambui Mwangi
 
-## Website Online Link
+## Website video Link
+https://flonnect.com/video/69c8aed8e111-447e-b998-8e830a7eb3e0
+
+## Backend repo
+https://github.com/Lesliemwangi/real-estate.git
 
 # Project description:
 
@@ -51,8 +55,8 @@ Clone the repository:
 git@github.com:Lesliemwangi/real-estate.git
 
 # Live Link
+https://github.com/Lesliemwangi/frontend.git
 
-https://github.com/Lesliemwangi/real-estate.git
 
 ### Property Details:
 
