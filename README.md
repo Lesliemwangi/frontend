@@ -55,7 +55,7 @@ Clone the repository:
 git@github.com:Lesliemwangi/real-estate.git
 
 # Live Link
-https://github.com/Lesliemwangi/frontend.git
+https://github.com/Lesliemwangi/real-eslate-frontend.git
 
 
 ### Property Details:
